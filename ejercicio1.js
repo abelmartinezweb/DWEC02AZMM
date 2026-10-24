@@ -58,7 +58,7 @@ window.onload = function(){
             document.writeln("<p><strong>Artículo: </strong>" + nombre + "</p>");
             document.writeln("<p><strong>Precio unitario: </strong>" + precio.toFixed(2) + "</p>");
             document.writeln("<p><strong>Subtotal bruto: </strong>" + subtotal.toFixed(2) + " € | <strong>Unidades: </strong>" + cantidad + "</p>");
-            document.writeln("<p><strong>Descuento aplicado: </strong>" + descuento + "% (" + precioConDescuento + "€)</p>");
+            document.writeln("<p><strong>Descuento aplicado: </strong>" + descuento + "% (" + precioConDescuento.toFixed(2) + "€)</p>");
             document.writeln("<p><strong>TOTAL A PAGAR: " + totalPago.toFixed(2) + "</strong></p>");
 
 
